@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Karakter Favorit Charlene</title>
+
+  <!-- Google Fonts: Lora -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Lora', serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #111111, #333333, #dddddd);
+      background-size: 400% 400%;
+      animation: gradientShift 20s ease infinite;
+      color: #f0f0f0;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 15px 0;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header a {
+      color: #cccccc;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 22px;
+      transition: color 0.3s ease;
+    }
+
+    header a:hover {
+      color: white;
+    }
+
+    h2 {
+      font-size: 36px;
+      text-align: center;
+      margin: 30px 0 20px;
+    }
+
+    .content {
+      background-color: rgba(255, 255, 255, 0.07);
+      padding: 30px;
+      margin: 40px auto;
+      max-width: 900px;
+      border-radius: 15px;
+      line-height: 1.8;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 20px 0;
+    }
+
+    .img-right {
+      max-width: 300px;
+      height: auto;
+      float: right;
+      margin: 0 0 20px 20px;
+      border-radius: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .img-right {
+        float: none;
+        display: block;
+        margin: 20px auto;
+        width: 100%;
+        max-width: 90%;
+      }
+
+      header a {
+        display: inline-block;
+        margin: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html">Home</a>
+    <a href="character.html">Character</a>
+  </header>
+
+  <h2>Karakter Favorit Saya</h2>
+
+  <div class="content">
+    <img src="taetae.jpg" alt="Kim Taehyung" class="img-right">
+
+    <p>This is my favourite idol ever since I was 9 years old, his name is <strong>Kim Taehyung</strong>. He is a member of the famous K-pop group <strong>BTS</strong> and my most favourite member there.</p>
+
+    <p>His birthday is on <strong>30 December 1995</strong>, which means he's currently 29 years old. Taehyung loves strawberries and jazzy music—just like me! In 2025, he completed his military service.</p>
+
+    <p>He is kind, charming, and really enjoys interacting with children. He also has an adorable dog named <strong>Yeontan</strong>, a pomeranian that fans love too!</p>
+
+    <p>The reason why I like him so much is because he sings beautifully and has ideal visuals. He is also incredibly nice to both fans and his BTS members, which makes him even more lovable.</p>
+
+    <p>He is the reason why I have the motivation to be someone better and pursue my dreams, achieve my goals and live my life freely.</p>
+
+    <p>Taehyung isn't only my bias, but a hero to many people like ARMY(fans).</p>
+
+    <p>For me, Kim Taehyung is not just an idol—he's an inspiration!</p>
+    <p>What about you? Do you have an inspirational character?</p>
+  </div>
+
+</body>
+</html>
